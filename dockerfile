@@ -9,4 +9,5 @@ ENV LANG C.UTF-8
 WORKDIR /app
 COPY . /app
 EXPOSE 8000
-ENTRYPOINT  ['python3', ' manage.py', 'runserver']
+ENTRYPOINT ["python3"]
+CMD  ["manage.py", "runserver"]

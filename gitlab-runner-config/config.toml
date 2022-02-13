@@ -5,9 +5,9 @@ check_interval = 0
   session_timeout = 1800
 
 [[runners]]
-  name = "entekhabdev-virtual-machine"
-  url = "http://192.168.100.146/"
-  token = "wUKy7J1V4sk-A6_C3tCP"
+  name = "YOUR_HOSTNAME"
+  url = "http://192.168.100.140/"
+  token = "YOUR_TOKEN"
   executor = "shell"
   [runners.custom_build_dir]
   [runners.cache]

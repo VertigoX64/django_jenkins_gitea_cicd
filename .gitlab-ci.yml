@@ -21,7 +21,7 @@ build-job:       # This job runs in the build stage, which runs first.
   stage: build
   script:
     - echo "building the image..."
-    - docker build -t getting-started . --tag django_test:latest
+    - docker build --tag django_test:latest . 
     - echo "building image complete."
 
 

@@ -8,4 +8,5 @@ ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 WORKDIR /app
 COPY . /app
+EXPOSE 8000
 CMD ['python3', ' manage.py', 'runserver']
